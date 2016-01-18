@@ -1,0 +1,12 @@
+name = "Flatly Dark"
+license = "MIT"
+licenselink = "https://github.com/calben/hugo-flatly-dark-theme/blob/master/LICENSE"
+description = "a flat theme for a hugo page."
+homepage = "//github.com/calben/hugo-flatly-dark-theme"
+tags = ["flat", "dark", "portfolio"]
+features = ["substitutable strings", "uikit"]
+min_version = 0.14
+
+[author]
+  name = "calben"
+  homepage = "//github.com/calben"
