@@ -1,0 +1,19 @@
+<div clas="data-uk-sticky">
+<nav class="uk-navbar">
+  <a class="uk-navbar-brand" href="#">{{ with .Site.Params.navigation.brand }}{{ . }}{{ end }}</a>
+  <div class="uk-navbar-content uk-navbar-flip">
+    <ul class="uk-navbar-nav uk-hidden-small">
+      <li>
+          <a href="#about">{{ with .Site.Params.navigation.links.about }}{{ . }}{{ end }}</a>
+      </li>
+      <li>
+          <a href="#services">{{ with .Site.Params.navigation.links.services }}{{ . }}{{ end }}</a>
+      </li>
+      <li>
+          <a href="#contact">{{ with .Site.Params.navigation.links.contact }}{{ . }}{{ end }}</a>
+      </li>
+    </ul>
+    <a href="#side-menu" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+  </div>
+</nav>
+</div>
