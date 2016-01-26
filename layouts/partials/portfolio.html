@@ -1,13 +1,14 @@
-<section id="services">
+<section id="portfolio">
     <div class="uk-grid uk-block">
-            <div class="uk-width-2-4 uk-push-1-4 uk-text-center">
-                <h2 class="section-heading">{{ with .Site.Params.services.headline }}{{ . }}{{ end }}</h2>
+            <div class="uk-width-4-5 uk-push-1-10 uk-text-center">
+                <h2 class="section-heading">{{ with .Site.Params.portfolio.headline }}{{ . }}{{ end }}</h2>
                 <hr class="primary">
+                <a href="#" class="uk-button uk-button-large uk-button-primary">{{ with .Site.Params.portfolio.buttonText }}{{ . }}{{ end }}</a>
             </div>
     </div>
     <div class="uk-grid" style="padding-bottom: 40px;">
             <div class="uk-width-1-10"></div>
-            {{ range .Site.Params.services.list }}
+            {{ range .Site.Params.portfolio.list }}
             <div class="uk-width-1-5 uk-text-center">
                     <h3>{{ .title }}</h3>
                     <p>{{ .description }}</p>
