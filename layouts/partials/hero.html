@@ -1,7 +1,7 @@
 {{ "<!-- HEADER -->" | safeHTML }}
 <header>
-    <div class="uk-grid fd-background-carbon-medium">
-        <div class="uk-width-medium-1-2 uk-panel uk-push-1-4" style="padding-top: 100px; padding-bottom: 100px">
+    <div class="uk-grid fd-background-concrete">
+        <div class="uk-width-medium-1-2 uk-panel uk-container-center uk-text-center" style="padding-top: 100px; padding-bottom: 100px">
             <h1>{{ with .Site.Params.hero.slogan }}{{ . }}{{ end }}</h1>
             <hr>
             <p>{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</p>
