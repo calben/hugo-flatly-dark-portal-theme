@@ -1,7 +1,7 @@
 {{ "<!-- ABOUT -->" | safeHTML }}
 <section class="uk-block uk-block-secondary" id="about">
     <div class="uk-grid">
-            <div class="uk-width-4-5 uk-text-center uk-container-center">
+            <div class="uk-width-4-5 uk-push-1-10 uk-text-center">
                 <h2 class="section-heading">{{ with .Site.Params.about.headline }}{{ . }}{{ end }}</h2>
                 <hr class="light">
                 <p class="">{{ with .Site.Params.about.description }}{{ . | markdownify }}{{ end }}</p>
